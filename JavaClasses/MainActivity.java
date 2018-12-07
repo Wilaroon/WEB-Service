@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 for (int i = 0; i < heroList.size(); i++) {
-                    heroes[i] = heroList.get(i).getName () + "-" + heroList.get(i).getRealname () + "-" + heroList.get(i).getTeam ()  ;
+                    heroes[i] = heroList.get(i).getName ();
 
 
                 }
